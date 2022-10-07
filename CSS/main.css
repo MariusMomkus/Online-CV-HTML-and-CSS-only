@@ -1,0 +1,119 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+  article
+  {
+    width: 600px;
+    margin-left: auto; /*Margin left and right as auto will center
+    a BLOCK level element*/
+    margin-right: auto;
+    padding: 16px; /* Spacing from top */
+  }
+
+  h1
+    {
+    text-align: center; /* Centers your text */
+    }
+
+h2, h1{
+    font-family: 'Calibri', 'Gill Sans';
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT'
+}
+
+nav{ /* Auto centre the width, states how large the margin and width should be Changes the color of the navigation to salmon, changes font*/
+    /* */
+    font-family: sans-serif;
+    width: auto;
+    max-width: 600px;
+    background-color: #031281;
+    margin: 16px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul { /* Centers the navigation text, removes any padding */
+    text-align: center;
+    padding: 0px;
+    list-style-type: none;
+    display: inline; /* Makes Navi horizontal instead of vertical */
+    overflow: hidden;
+}
+
+nav ul li { /* Removes the bullet points from navigation */
+    display: inline-block;
+}
+
+nav ul li a { /* Makes a block look */
+    text-decoration: none; /* Disables the underline */
+    padding: 16px;
+    display: block;
+    /* 16 px padding top and bottom, 32px padding left and right */
+}
+
+nav ul li a:hover, nav u li a:focus, nav u li a:active {
+    /* Hover adds big box highlighting over it when mouse goves over it*/
+    /* Focus is when you press tab key it will highlight */
+    background: rgb(50,50,50);
+    color: #eeeeee
+}
+
+.overflow-hidden {
+    overflow: hidden;
+    height: 35px;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+    height: 35px;
+}
+
+#summarylist {
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(33, 33, 33); /* There are a few ways to do color... */
+    background-color: #eeeeee; /* Background color of the paragraph */
+    padding: 5px;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(33, 33, 33); /* There are a few ways to do color... */
+    background-color: #eeeeee; /* Background color of the paragraph */
+}
+
+#Summary{
+    padding: 0px;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    /* Can also margin: -20, 0, 25, 0; */
+}
+
+.logo{
+    float: left;
+    margin: 0px 16px 16px 0px;
+}
+
+#cn{
+    padding: 5px;
+    float: left;
+    margin: 35px 16px 35px 0px;
+}
+
